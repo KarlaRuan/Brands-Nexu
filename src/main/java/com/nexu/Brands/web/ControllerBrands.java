@@ -28,7 +28,7 @@ public class ControllerBrands {
         return "create";
     }
     
-    @PostMapping("/save")
+    @PostMapping("/brands")
     public String save(@Valid Brand brand, Errors errores){
         
         if(errores.hasErrors()){
